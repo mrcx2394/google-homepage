@@ -2,25 +2,35 @@
 <html>
 <head>
   <title>Google Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav>
     <ul class="header">
-      <li>Gmail</li>
-      <li>Images</li>
-      <li class="simbol">M</li>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li class="dots">
+        <a href="#">
+          <img id="apps" src="dots.png">
+        </a>
+      </li>
+      <li class="simbol">
+        <a href="#">
+          <img id="avatar" src="avatar.png">
+      </a>
+      </li>
     </ul>
   </nav>
 <div class="container">
   <div class="logo">
-    <img src="googlelogo_color_272x92dp.png.png">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
   </div>
     <input type="text" id="search">
   <div class="button">
-    <input type="button" value="Google Search" id="btn">
-    <input type="button" value="I'm Feeling Lucky" id="btn">
+    <a id="btn" href="#">Google Search</a>
+    <a id="btn" href="#">I'm Feeling Lucky</a>
   </div>
 
     <p id="lang">Google offered in: <a href="#">Portugues(Portugal)</a></p>
